@@ -1,0 +1,141 @@
+body{
+   font-family: 'Oleo Script', cursive;
+ font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+   background-color: #E5E5E5;
+}
+ 
+   
+   :root{
+      --primary-text-color:#212121;
+      --title-text-color:#FFFFFF;
+      --accent-color: #2196F3; 
+      --second-accent-color:#757575;
+   }
+   .header-logo{
+      color: #2196F3;
+      font-weight: 700;
+      font-size: 26px;
+      line-height:1,1;
+      letter-spacing: 0.03em;
+   }
+   .header-logo-text{
+      color: #000000;
+      font-weight: 700;
+      font-size: 26px;
+      line-height:1,1;
+      letter-spacing: 0.03em;
+   }
+.header-link{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height:1,14 ;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+}
+.header-link:hover,.header-link:focus,.header-link:active{
+   color: var(--accent-color);
+}
+.header-mail{
+   color: var(--second-accent-color) ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+.header-mail:hover,.header-mail:focus,.header-mail:active{
+   color: var(--accent-color);
+}
+.header-tel{
+   color:var(--second-accent-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1,14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+
+}
+.header-tel:hover,.header-tel:focus,.header-tel:active{
+   color: var(--accent-color);
+}
+
+.hero-title{
+   color: var(--title-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+.hero-btn{
+   background-color: var(--accent-color);
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height:1,8;
+}
+ 
+.section-title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+}
+.section-text{
+   color: var(--second-accent-color);
+   font-size: 14px;
+   line-height:1,7;
+   letter-spacing: 0.03em;
+
+}
+.features-section-title{
+   color: var(--primary-text-color);
+   font-weight: 700;
+    font-size: 36px;
+    line-height:1,2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.features-text{
+   color: var(--primary-text-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1,1;
+   text-align: center;
+    letter-spacing: 0.03em;
+}
+.features-desc-text{
+   color: var(--second-accent-color);
+   font-size: 16px;
+   line-height: 1,1;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+.footer-logo{
+   color: #2196F3;
+      font-weight: 700;
+      font-size: 26px;
+      line-height:1,1;
+      letter-spacing: 0.03em;
+
+}
+.accent{
+   color: #000000;
+      font-weight: 700;
+      font-size: 26px;
+      line-height:1,1;
+      letter-spacing: 0.03em;
+}
+.footer-link{
+   color: var(--title-text-color);
+}
+.footer-link:hover,.footer-link:focus{
+   color: var(--accent-color);
+}
+
+
